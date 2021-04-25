@@ -1,0 +1,8 @@
+{"backend_state":"running","kernel":"anaconda3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":89083904},"trust":true,"type":"settings"}
+{"end":1554484117245,"exec_count":4,"id":"66daa7","input":"lis=list(dictimes.values())","kernel":"anaconda3","pos":1,"start":1554484117240,"state":"done","type":"cell"}
+{"end":1554484224445,"exec_count":9,"id":"3f7d73","input":"minlis=min(lis)","kernel":"anaconda3","pos":2,"start":1554484224440,"state":"done","type":"cell"}
+{"end":1554484267879,"exec_count":10,"id":"eb051f","input":"[key for key in dictimes.keys() if dictimes[key]==minlis]","kernel":"anaconda3","output":{"0":{"data":{"text/plain":"['Nautico', 'palmeiras']"},"exec_count":10}},"pos":3,"start":1554484267861,"state":"done","type":"cell"}
+{"exec_count":1,"id":"8973f3","input":"dictimes={\"Palmeiras\":0, \"Corithians:\":1, \"Internacional\":1, \"São Paulo\":3, \"Nautico\":0}","kernel":"anaconda3","pos":0,"state":"done","type":"cell"}
+{"id":"e64596","input":"","pos":4,"state":"done","type":"cell"}
+{"id":0,"time":1556903247675,"type":"user"}
+{"last_load":1554483916892,"type":"file"}

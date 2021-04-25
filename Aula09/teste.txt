@@ -1,0 +1,23 @@
+total 114
+drwxr-xr-x  3 user user     22 May  3 17:27 .
+drwxr-xr-x 23 user user     33 May  3 16:00 ..
+-rw-r--r--  1 user user 112047 May  3 16:01 .Aula24.04.2017.ipynb.sage-jupyter2
+-rw-r--r--  1 user user  89550 May  3 17:29 .Aula9.ipynb.sage-jupyter2
+-rw-r--r--  1 user user  23468 May  1 16:34 .python.dados.pandas.ipynb.sage-jupyter2
+-rw-r--r--  1 user user 125193 May  3 17:29 Aula9.ipynb
+-rw-r--r--  1 user user     46 May  3 16:43 DUE_DATE.txt
+-rw-r--r--  1 user user    406 Mar  1 16:46 arq_abr_outuno.txt
+-rw-r--r--  1 user user   1121 Mar  1 16:46 arq_ago_inverno.txt
+-rw-r--r--  1 user user   1220 Mar  1 16:46 arq_dez_primavera.txt
+-rw-r--r--  1 user user    684 Mar  1 16:46 arq_fev_verao.txt
+-rw-r--r--  1 user user   1368 Mar  1 16:46 arq_jan_verao.txt
+-rw-r--r--  1 user user    885 Mar  1 16:46 arq_jul_inverno.txt
+-rw-r--r--  1 user user   1276 Mar  1 16:46 arq_jun_outuno.txt
+-rw-r--r--  1 user user   1102 Mar  1 16:46 arq_mai_outuno.txt
+-rw-r--r--  1 user user    342 Mar  1 16:46 arq_mar_verao.txt
+-rw-r--r--  1 user user   1586 Mar  1 16:46 arq_nov_primavera.txt
+-rw-r--r--  1 user user    610 Mar  1 16:46 arq_out_primavera.txt
+-rw-r--r--  1 user user    610 Mar  1 16:46 arq_set_primavera.txt
+drwxr-xr-x  2 user user      2 Mar  1 16:46 cookbook-data
+-rw-r--r--  1 user user   1133 May  3 17:27 dicchar.csv
+-rw-r--r--  1 user user      0 May  3 17:29 teste.txt

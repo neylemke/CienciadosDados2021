@@ -1,0 +1,36 @@
+]0;~/Aula02[01;34m~/Aula02[00m$ [K]0;~/Aula02[01;34m~/Aula02[00m$ cd ..
+]0;~[01;34m~[00m$ pwd
+/home/user
+]0;~[01;34m~[00m$ ls
+2021-04-15-115205.course  [0m[01;34mAula02[0m  [01;34mAula10[0m  [01;34mAula12[0m       [01;34mAula13[0m  [01;34mAula3[0m  [01;34mAula5[0m  [01;34mAula7[0m  Organizacao.ipynb
+[01;34mAula01[0m                    [01;34mAula09[0m  [01;34mAula11[0m  [01;34mAula12Extra[0m  [01;34mAula14[0m  [01;34mAula4[0m  [01;34mAula6[0m  [01;34mAula8[0m
+]0;~[01;34m~[00m$ mv Ai[Kula3 Aula03
+]0;~[01;34m~[00m$ mv Aula3 Aula03[C[1P Aula035 Aula03[C[C[C[C[1P Aula034 Aula03[C[C[C[C[C[C[C[K4
+]0;~[01;34m~[00m$ mv Aula4 Aula04[1P Aula045 Aula04[C[C[C[C[C[C[C[K5
+]0;~[01;34m~[00m$ mv Aula5 Aula05[1P Aula056 Aula05[C[C[C[C[C[C[C[K6
+]0;~[01;34m~[00m$ mv Aula6 Aula06[1P Aula067 Aula06[C[C[C[C[C[C[C[K7
+]0;~[01;34m~[00m$ mv Aula7 Aula07[C[1P Aula078 Aula07[C[C[C[C[C[C[C[K8
+]0;~[01;34m~[00m$ mv Aula8 Aula08[1P Aula089 Aula08[C[C[C[C[C[C[C[K9
+mv: cannot stat 'Aula9': No such file or directory
+]0;~[01;34m~[00m$ ls
+2021-04-15-115205.course  [0m[01;34mAula02[0m  [01;34mAula04[0m  [01;34mAula06[0m  [01;34mAula08[0m  [01;34mAula10[0m  [01;34mAula12[0m       [01;34mAula13[0m  Organizacao.ipynb
+[01;34mAula01[0m                    [01;34mAula03[0m  [01;34mAula05[0m  [01;34mAula07[0m  [01;34mAula09[0m  [01;34mAula11[0m  [01;34mAula12Extra[0m  [01;34mAula14[0m
+]0;~[01;34m~[00m$ zip & [K[K[K * CienciasDados[K[K[K[K[K[KdosDados21.z[K[1PCienciadosDados21.[C[C[C[C[C[C[C[C[1PCienciadosDados21.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czip *
+  adding: 2021-04-15-115205.course (deflated 16%)
+  adding: Aula01/ (stored 0%)
+  adding: Aula02/ (stored 0%)
+  adding: Aula03/ (stored 0%)
+  adding: Aula04/ (stored 0%)
+  adding: Aula05/ (stored 0%)
+  adding: Aula06/ (stored 0%)
+  adding: Aula07/ (stored 0%)
+  adding: Aula08/ (stored 0%)
+  adding: Aula09/ (stored 0%)
+  adding: Aula10/ (stored 0%)
+  adding: Aula11/ (stored 0%)
+  adding: Aula12/ (stored 0%)
+  adding: Aula12Extra/ (stored 0%)
+  adding: Aula13/ (stored 0%)
+  adding: Aula14/ (stored 0%)
+  adding: Organizacao.ipynb (deflated 66%)
+]0;~[01;34m~[00m$ zip CienciadosDados21.zip *[C[C[1@0[1@r[1@ [1P[1P[1P[1@-[1@r[1@r[1P

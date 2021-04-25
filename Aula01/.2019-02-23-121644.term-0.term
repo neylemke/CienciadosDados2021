@@ -1,0 +1,11 @@
+]0;~/Aula1[01;34m~/Aula1[00m$ [K]0;~/Aula1[01;34m~/Aula1[00m$ jupyter nbconvert --to slides --ServePostProcessor.port=18080 --ServePostProcessor.ip='*' --ServePostProcessor.open_in_browser==False ~/'Aula1/Historia.ipynb' --post serve
+[NbConvertApp] Converting notebook /home/user/Aula1/Historia.ipynb to slides
+[NbConvertApp] Writing 283832 bytes to /home/user/Aula1/Historia.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+Serving your slides at http://*:18080/Historia.slides.html
+Use Control-C to stop this server
+WARNING:tornado.access:404 GET /custom.css (192.168.55.170) 0.71ms
+WARNING:tornado.access:404 GET /custom.css (192.168.55.170) 0.77ms
+WARNING:tornado.access:404 GET /custom.css (192.168.55.170) 0.83ms
+WARNING:tornado.access:404 GET /custom.css (192.168.226.52) 0.83ms
+WARNING:tornado.access:404 GET /custom.css (192.168.226.52) 1.42ms

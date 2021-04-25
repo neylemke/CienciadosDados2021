@@ -1,0 +1,5 @@
+{"backend_state":"running","kernel":"anaconda3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":89014272},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.5.5"}},"trust":true,"type":"settings"}
+{"cell_type":"code","end":1551462792900,"exec_count":1,"id":"e87c70","input":"print(\"Hello World\")","kernel":"anaconda3","output":{"0":{"name":"stdout","text":"Hello World\n"}},"pos":0,"start":1551462792889,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ec91ac","input":"","pos":1,"state":"done","type":"cell"}
+{"id":0,"time":1552064597181,"type":"user"}
+{"last_load":1551462017800,"type":"file"}

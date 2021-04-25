@@ -1,0 +1,5 @@
+{"backend_state":"running","kernel":"anaconda3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":88846336},"trust":true,"type":"settings"}
+{"exec_count":1,"id":"e58c88","input":"print(\"Hello World\")","kernel":"anaconda3","output":{"0":{"name":"stdout","text":"Hello World\n"}},"pos":0,"state":"done","type":"cell"}
+{"id":"04c481","input":"","pos":1,"type":"cell"}
+{"id":0,"time":1551463131613,"type":"user"}
+{"last_load":1551461873903,"type":"file"}

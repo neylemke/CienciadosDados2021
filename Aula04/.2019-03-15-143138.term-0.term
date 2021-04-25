@@ -1,0 +1,2999 @@
+]0;~/Aula4[01;34m~/Aula4[00m$ ls 
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb
+]0;~/Aula4[01;34m~/Aula4[00m$ cp ComandosLinux.ipynb [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KmandosLinux.ipynb kkk
+]0;~/Aula4[01;34m~/Aula4[00m$ ls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb  kkk
+]0;~/Aula4[01;34m~/Aula4[00m$ mv kkk reginaldo
+]0;~/Aula4[01;34m~/Aula4[00m$ rm reginaldo
+]0;~/Aula4[01;34m~/Aula4[00m$ ls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb
+]0;~/Aula4[01;34m~/Aula4[00m$ mkdir teste
+]0;~/Aula4[01;34m~/Aula4[00m$ ls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb  [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ ls -l 
+total 17
+-rw-r--r-- 1 user user     0 Mar 15 17:31 2019-03-15-143138.term
+drwxr-xr-x 3 user user    15 Mar 14 18:29 [0m[01;34mAula03.04.2017[0m
+-rw-r--r-- 1 user user  6748 Mar 15 17:39 ComandosLinux.ipynb
+-rw-r--r-- 1 user user    46 Mar 15 16:57 DUE_DATE.txt
+-rw-r--r-- 1 user user 22233 Mar 14 19:17 Interfacejupyter.parte2.ipynb
+drwxr-xr-x 2 user user     2 Mar 15 17:40 [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ ls -l [Ka
+total 35
+drwx------  4 user user    11 Mar 15 17:40 [0m[01;34m.[0m
+drwxr-xr-x 16 user user    25 Mar 15 16:56 [01;34m..[0m
+-rw-r--r--  1 user user  1449 Mar 15 17:41 .2019-03-15-143138.term-0.term
+-rw-r--r--  1 user user  5257 Mar 15 17:21 .ComandosLinux.ipynb.sage-jupyter2
+-rw-r--r--  1 user user     0 Mar 14 18:24 .Interfacejupyter.parte2.ipynb.sage-jupyter2
+-rw-r--r--  1 user user     0 Mar 15 17:31 2019-03-15-143138.term
+drwxr-xr-x  3 user user    15 Mar 14 18:29 [01;34mAula03.04.2017[0m
+-rw-r--r--  1 user user  6748 Mar 15 17:41 ComandosLinux.ipynb
+-rw-r--r--  1 user user    46 Mar 15 16:57 DUE_DATE.txt
+-rw-r--r--  1 user user 22233 Mar 14 19:17 Interfacejupyter.parte2.ipynb
+drwxr-xr-x  2 user user     2 Mar 15 17:40 [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ cd teste
+]0;~/Aula4/teste[01;34m~/Aula4/teste[00m$ ls
+]0;~/Aula4/teste[01;34m~/Aula4/teste[00m$ cd ;;[K[K..
+]0;~/Aula4[01;34m~/Aula4[00m$ ls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb  [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ file DUE_DATE.txt 
+DUE_DATE.txt: ASCII text
+]0;~/Aula4[01;34m~/Aula4[00m$ cd /
+]0;/[01;34m/[00m$ ls
+[0m[01;34mbin[0m   [01;34mcocalc[0m  [01;34metc[0m  [01;34mhome[0m  [01;34mlib32[0m  [01;34mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msecrets[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mdev[0m     [01;34mext[0m  [01;34mlib[0m   [01;34mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;34msbin[0m  [01;34msrv[0m      [30;42mtmp[0m  [01;34mvar[0m
+]0;/[01;34m/[00m$ cd bin
+]0;/bin[01;34m/bin[00m$ ls
+[0m[01;32mbash[0m                [01;32mcgroups-mount[0m   [37;41mfusermount[0m  [01;32mmkdir[0m           [01;32mntfsmove[0m      [01;32msleep[0m                           [01;32muname[0m
+[01;32mbsd-csh[0m             [01;32mcgroups-umount[0m  [01;32mgetfacl[0m     [01;32mmkfs.btrfs[0m      [01;32mntfsrecover[0m   [01;32mss[0m                              [01;32muncompress[0m
+[01;32mbtrfs[0m               [01;32mchacl[0m           [01;32mgrep[0m        [01;32mmknod[0m           [01;32mntfssecaudit[0m  [01;32mstty[0m                            [01;32mvdir[0m
+[01;32mbtrfs-debug-tree[0m    [01;32mchgrp[0m           [01;32mgunzip[0m      [01;32mmktemp[0m          [01;32mntfstruncate[0m  [37;41msu[0m                              [01;32mwdctl[0m
+[01;32mbtrfs-find-root[0m     [01;32mchmod[0m           [01;32mgzexe[0m       [01;32mmore[0m            [01;32mntfsusermap[0m   [01;32msync[0m                            [01;32mwhich[0m
+[01;32mbtrfs-image[0m         [01;32mchown[0m           [01;32mgzip[0m        [37;41mmount[0m           [01;32mntfswipe[0m      [01;32msystemctl[0m                       [01;32mwhiptail[0m
+[01;32mbtrfs-map-logical[0m   [01;32mcp[0m              [01;32mhciconfig[0m   [01;32mmountpoint[0m      [01;36mpidof[0m         [01;36msystemd[0m                         [01;36mypdomainname[0m
+[01;32mbtrfs-select-super[0m  [01;36mcsh[0m             [01;32mhostname[0m    [01;32mmv[0m              [37;41mping[0m          [01;32msystemd-ask-password[0m            [01;32mzcat[0m
+[01;32mbtrfs-zero-log[0m      [01;32mdash[0m            [01;32mip[0m          [01;32mnano[0m            [01;36mping4[0m         [01;32msystemd-escape[0m                  [01;32mzcmp[0m
+[01;36mbtrfsck[0m             [01;32mdate[0m            [01;32mjournalctl[0m  [01;36mnc[0m              [01;36mping6[0m         [01;32msystemd-hwdb[0m                    [01;32mzdiff[0m
+[01;32mbtrfstune[0m           [01;32mdd[0m              [01;32mkill[0m        [01;32mnc.traditional[0m  [01;32mps[0m            [01;32msystemd-inhibit[0m                 [01;32mzegrep[0m
+[01;32mbunzip2[0m             [01;32mdf[0m              [01;32mkmod[0m        [01;36mnetcat[0m          [01;32mpwd[0m           [01;32msystemd-machine-id-setup[0m        [01;32mzfgrep[0m
+[01;32mbzcat[0m               [01;32mdir[0m             [01;32mless[0m        [01;32mnetstat[0m         [01;36mrbash[0m         [01;32msystemd-notify[0m                  [01;32mzforce[0m
+[01;36mbzcmp[0m               [01;32mdmesg[0m           [01;32mlessecho[0m    [01;32mnetworkctl[0m      [01;32mreadlink[0m      [01;32msystemd-sysusers[0m                [01;32mzgrep[0m
+[01;32mbzdiff[0m              [01;36mdnsdomainname[0m   [01;36mlessfile[0m    [01;36mnisdomainname[0m   [01;32mred[0m           [01;32msystemd-tmpfiles[0m                [01;32mzless[0m
+[01;36mbzegrep[0m             [01;36mdomainname[0m      [01;32mlesskey[0m     [37;41mntfs-3g[0m         [01;32mrm[0m            [01;32msystemd-tty-ask-password-agent[0m  [01;32mzmore[0m
+[01;32mbzexe[0m               [01;32mecho[0m            [01;32mlesspipe[0m    [01;32mntfs-3g.probe[0m   [01;32mrmdir[0m         [01;32mtar[0m                             [01;32mznew[0m
+[01;36mbzfgrep[0m             [01;32med[0m              [01;32mln[0m          [01;32mntfscat[0m         [01;36mrnano[0m         [01;32mtcsh[0m                            [01;32mzsh[0m
+[01;32mbzgrep[0m              [01;32megrep[0m           [01;32mlogin[0m       [01;32mntfscluster[0m     [01;32mrun-parts[0m     [01;32mtempfile[0m                        [01;32mzsh5[0m
+[01;32mbzip2[0m               [01;32mfalse[0m           [01;32mloginctl[0m    [01;32mntfscmp[0m         [01;36mrzsh[0m          [01;32mtouch[0m
+[01;32mbzip2recover[0m        [01;32mfgrep[0m           [01;32mlowntfs-3g[0m  [01;32mntfsfallocate[0m   [01;32msed[0m           [01;32mtrue[0m
+[01;36mbzless[0m              [01;32mfindmnt[0m         [01;32mls[0m          [01;32mntfsfix[0m         [01;32msetfacl[0m       [01;32mudevadm[0m
+[01;32mbzmore[0m              [01;32mfsck.btrfs[0m      [01;32mlsblk[0m       [01;32mntfsinfo[0m        [01;36msh[0m            [01;32mulockmgr_server[0m
+[01;32mcat[0m                 [01;32mfuser[0m           [01;36mlsmod[0m       [01;32mntfsls[0m          [01;36msh.distrib[0m    [37;41mumount[0m
+]0;/bin[01;34m/bin[00m$ file [K[K[K[K[Kcd ..
+]0;/[01;34m/[00m$ cd [K[K[Kls
+[0m[01;34mbin[0m   [01;34mcocalc[0m  [01;34metc[0m  [01;34mhome[0m  [01;34mlib32[0m  [01;34mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msecrets[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mdev[0m     [01;34mext[0m  [01;34mlib[0m   [01;34mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;34msbin[0m  [01;34msrv[0m      [30;42mtmp[0m  [01;34mvar[0m
+]0;/[01;34m/[00m$ cd bin 
+]0;/bin[01;34m/bin[00m$ ls
+[0m[01;32mbash[0m                [01;32mcgroups-mount[0m   [37;41mfusermount[0m  [01;32mmkdir[0m           [01;32mntfsmove[0m      [01;32msleep[0m                           [01;32muname[0m
+[01;32mbsd-csh[0m             [01;32mcgroups-umount[0m  [01;32mgetfacl[0m     [01;32mmkfs.btrfs[0m      [01;32mntfsrecover[0m   [01;32mss[0m                              [01;32muncompress[0m
+[01;32mbtrfs[0m               [01;32mchacl[0m           [01;32mgrep[0m        [01;32mmknod[0m           [01;32mntfssecaudit[0m  [01;32mstty[0m                            [01;32mvdir[0m
+[01;32mbtrfs-debug-tree[0m    [01;32mchgrp[0m           [01;32mgunzip[0m      [01;32mmktemp[0m          [01;32mntfstruncate[0m  [37;41msu[0m                              [01;32mwdctl[0m
+[01;32mbtrfs-find-root[0m     [01;32mchmod[0m           [01;32mgzexe[0m       [01;32mmore[0m            [01;32mntfsusermap[0m   [01;32msync[0m                            [01;32mwhich[0m
+[01;32mbtrfs-image[0m         [01;32mchown[0m           [01;32mgzip[0m        [37;41mmount[0m           [01;32mntfswipe[0m      [01;32msystemctl[0m                       [01;32mwhiptail[0m
+[01;32mbtrfs-map-logical[0m   [01;32mcp[0m              [01;32mhciconfig[0m   [01;32mmountpoint[0m      [01;36mpidof[0m         [01;36msystemd[0m                         [01;36mypdomainname[0m
+[01;32mbtrfs-select-super[0m  [01;36mcsh[0m             [01;32mhostname[0m    [01;32mmv[0m              [37;41mping[0m          [01;32msystemd-ask-password[0m            [01;32mzcat[0m
+[01;32mbtrfs-zero-log[0m      [01;32mdash[0m            [01;32mip[0m          [01;32mnano[0m            [01;36mping4[0m         [01;32msystemd-escape[0m                  [01;32mzcmp[0m
+[01;36mbtrfsck[0m             [01;32mdate[0m            [01;32mjournalctl[0m  [01;36mnc[0m              [01;36mping6[0m         [01;32msystemd-hwdb[0m                    [01;32mzdiff[0m
+[01;32mbtrfstune[0m           [01;32mdd[0m              [01;32mkill[0m        [01;32mnc.traditional[0m  [01;32mps[0m            [01;32msystemd-inhibit[0m                 [01;32mzegrep[0m
+[01;32mbunzip2[0m             [01;32mdf[0m              [01;32mkmod[0m        [01;36mnetcat[0m          [01;32mpwd[0m           [01;32msystemd-machine-id-setup[0m        [01;32mzfgrep[0m
+[01;32mbzcat[0m               [01;32mdir[0m             [01;32mless[0m        [01;32mnetstat[0m         [01;36mrbash[0m         [01;32msystemd-notify[0m                  [01;32mzforce[0m
+[01;36mbzcmp[0m               [01;32mdmesg[0m           [01;32mlessecho[0m    [01;32mnetworkctl[0m      [01;32mreadlink[0m      [01;32msystemd-sysusers[0m                [01;32mzgrep[0m
+[01;32mbzdiff[0m              [01;36mdnsdomainname[0m   [01;36mlessfile[0m    [01;36mnisdomainname[0m   [01;32mred[0m           [01;32msystemd-tmpfiles[0m                [01;32mzless[0m
+[01;36mbzegrep[0m             [01;36mdomainname[0m      [01;32mlesskey[0m     [37;41mntfs-3g[0m         [01;32mrm[0m            [01;32msystemd-tty-ask-password-agent[0m  [01;32mzmore[0m
+[01;32mbzexe[0m               [01;32mecho[0m            [01;32mlesspipe[0m    [01;32mntfs-3g.probe[0m   [01;32mrmdir[0m         [01;32mtar[0m                             [01;32mznew[0m
+[01;36mbzfgrep[0m             [01;32med[0m              [01;32mln[0m          [01;32mntfscat[0m         [01;36mrnano[0m         [01;32mtcsh[0m                            [01;32mzsh[0m
+[01;32mbzgrep[0m              [01;32megrep[0m           [01;32mlogin[0m       [01;32mntfscluster[0m     [01;32mrun-parts[0m     [01;32mtempfile[0m                        [01;32mzsh5[0m
+[01;32mbzip2[0m               [01;32mfalse[0m           [01;32mloginctl[0m    [01;32mntfscmp[0m         [01;36mrzsh[0m          [01;32mtouch[0m
+[01;32mbzip2recover[0m        [01;32mfgrep[0m           [01;32mlowntfs-3g[0m  [01;32mntfsfallocate[0m   [01;32msed[0m           [01;32mtrue[0m
+[01;36mbzless[0m              [01;32mfindmnt[0m         [01;32mls[0m          [01;32mntfsfix[0m         [01;32msetfacl[0m       [01;32mudevadm[0m
+[01;32mbzmore[0m              [01;32mfsck.btrfs[0m      [01;32mlsblk[0m       [01;32mntfsinfo[0m        [01;36msh[0m            [01;32mulockmgr_server[0m
+[01;32mcat[0m                 [01;32mfuser[0m           [01;36mlsmod[0m       [01;32mntfsls[0m          [01;36msh.distrib[0m    [37;41mumount[0m
+]0;/bin[01;34m/bin[00m$ file rm
+rm: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=864c9bbef111ce358b3452cf7ea457d292ba93f0, stripped
+]0;/bin[01;34m/bin[00m$ cd ~
+]0;~[01;34m~[00m$ ls
+[0m[01;34m2019-02-22-131223[0m       [01;34mAula1[0m  [01;34mAula3[0m  [01;34mFiscomp2019-collect[0m  Organizacao.ipynb
+2019-03-01-134858.term  [01;34mAula2[0m  [01;34mAula4[0m  Fiscomp2019.course   [01;34mfiscomp2017[0m
+]0;~[01;34m~[00m$ cd Aula4
+]0;~/Aula4[01;34m~/Aula4[00m$ ls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb  [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ zip [K[K[K[Kls
+2019-03-15-143138.term  [0m[01;34mAula03.04.2017[0m  ComandosLinux.ipynb  DUE_DATE.txt  Interfacejupyter.parte2.ipynb  [01;34mteste[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ rmdir teste
+]0;~/Aula4[01;34m~/Aula4[00m$ cp DUE_DATE.txt kkk 
+]0;~/Aula4[01;34m~/Aula4[00m$ zip kkk kkk.zip
+	zip warning: name not matched: kkk.zip
+
+zip error: Nothing to do! (kkk.zip)
+]0;~/Aula4[01;34m~/Aula4[00m$ zip kkk kkk.zip[K[K[K[K[K[K[K[K.zip kkk
+  adding: kkk (stored 0%)
+]0;~/Aula4[01;34m~/Aula4[00m$ ls -l
+total 18
+-rw-r--r-- 1 user user     0 Mar 15 17:31 2019-03-15-143138.term
+drwxr-xr-x 3 user user    15 Mar 14 18:29 [0m[01;34mAula03.04.2017[0m
+-rw-r--r-- 1 user user  6748 Mar 15 17:48 ComandosLinux.ipynb
+-rw-r--r-- 1 user user    46 Mar 15 16:57 DUE_DATE.txt
+-rw-r--r-- 1 user user 22233 Mar 14 19:17 Interfacejupyter.parte2.ipynb
+-rw-r--r-- 1 user user    46 Mar 15 17:48 kkk
+-rw-r--r-- 1 user user   202 Mar 15 17:48 [01;31mkkk.zip[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ rm kkk.zi[K[K[K[K[K[K[K[K[Kcp Interfacejupyter.parte2.ipynb kkk2
+]0;~/Aula4[01;34m~/Aula4[00m$ zip kkk2.zip kkk2
+  adding: kkk2 (deflated 73%)
+]0;~/Aula4[01;34m~/Aula4[00m$ ls -l
+total 35
+-rw-r--r-- 1 user user     0 Mar 15 17:31 2019-03-15-143138.term
+drwxr-xr-x 3 user user    15 Mar 14 18:29 [0m[01;34mAula03.04.2017[0m
+-rw-r--r-- 1 user user  6748 Mar 15 17:49 ComandosLinux.ipynb
+-rw-r--r-- 1 user user    46 Mar 15 16:57 DUE_DATE.txt
+-rw-r--r-- 1 user user 22233 Mar 14 19:17 Interfacejupyter.parte2.ipynb
+-rw-r--r-- 1 user user    46 Mar 15 17:48 kkk
+-rw-r--r-- 1 user user   202 Mar 15 17:48 [01;31mkkk.zip[0m
+-rw-r--r-- 1 user user 22233 Mar 15 17:49 kkk2
+-rw-r--r-- 1 user user  6184 Mar 15 17:49 [01;31mkkk2.zip[0m
+]0;~/Aula4[01;34m~/Aula4[00m$ more DUE_DATE.txt 
+This assignment is due
+
+   18/03/2019 13:57:21
+]0;~/Aula4[01;34m~/Aula4[00m$ more O[KInterfacejupyter.parte2.ipynb 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+[7m--More--(1%)[27m[K]0;~/Aula4[01;34m~/Aula4[00m$ more Interfacejupyter.parte2.ipynb 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+[7m--More--(1%)[27m[K]0;~/Aula4[01;34m~/Aula4[00m$ more Interfacejupyter.parte2.ipynb [C[C[C[C[C[C[C[C[C[Kmore Interfacejupyter.parte2.ipynb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[17PDUE_DATE.txt[C[C[C[C[C[C[C[C[C[Cls -l[Kzip kkk2.zip kkk2[C[C[C[C[C[C[C[C[C[20@cp Interfacejupyter.parte2.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Kzip kkk.zip kkk[C[C[C[C[C[C[C[C[C[10Pls -lcp Interfacejupyter.parte2.ipynb kkk2[C[C[C[C[C[C[C[C[C[20Pzip kkk2.zip[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Kmore DUE_DATE.txt [17@Interfacejupyter.parte2.ipynb[C
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+[7m--More--(1%)[27m    "\n",[K
+    "- Primeiro e acima de tudo, o Notebook Jupyter é um ambiente interativo para escrever e executar código. O notebook é ca
+paz de executar código em uma ampla gama de idiomas. No entanto, cada notebook está associado a um único kernel. Este bloco d
+e notas está associado ao kernel do IPython, portanto executa código Python.\n",
+    "\n",
+    "- As células de código permitem que você digite e execute o código. Execute uma célula de código usando **Shift-Enter**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+[7m--More--(5%)[27m    }[K
+   ],
+   "source": [
+    "print (\"Hello world!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Existem dois outros atalhos de teclado para executar o código:\n",
+    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+[7m--More--(7%)[27m    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de Mardown.\n",
+    "- O texto pode ser adicionado aos notebooks Jupyter usando células Markdown. Markdown é uma linguagem de marcação popula
+r que é um superconjunto de HTML. Sua especificação pode ser encontrada aqui:\n",
+    "\n",
+    "Http://daringfireball.net/projects/markdown/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**1. Dar ênfase ao texto**\n",
+    "\n",
+    "- Você pode fazer o texto em *itálico* ou em **negrito**.\n",
+[7m--More--(10%)[27m    "![M1](m1.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "source": [
+    "- A ênfase pode ser adicionada a palavras únicas, a uma sequência de palavras, ou mesmo às partes das palavras:\n",
+    "\n",
+    "![M2](m2.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+[7m--More--(12%)[27m   },[K
+   "source": [
+    "**2. Título **\n",
+    "\n",
+    "- Markdown permite subdividir o texto com títulos; estão disponíveis seis níveis diferentes, embora não seja comum que u
+m texto normal use mais de três. Por exemplo, há três níveis de título usados no texto que está a ler actualmente.\n",
+    "\n",
+    "- Pode criar um título começando uma linha com um ou vários caracteres #. Usa-se um único caracter # para o título princ
+ipal, e quantos mais caracteres # usar, menos importante será o título.\n",
+    "\n",
+    "![M3](m3.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**3. Equações em LaTeX**\n",
+    "\n",
+[7m--More--(16%)[27m    "\n",[K
+    "Cortesia de MathJax, você pode incluir expressões matemáticas tanto inline: $ e^{i \\pi} + 1 = 0 $ quanto em uma linha s
+eparada. Basta colocar a qualquer equação entre os simbolos \"$$\":\n",
+    "\n",
+    "$$ e^x = \\sum_{i = 0}^ \\infty \\frac{1}{i!} x ^i $$\n",
+    "\n",
+    "\n",
+    "ou ainda:\n",
+    "\n",
+    "$$\\hat{f}(\\xi) = \\int_{-\\infty}^{+\\infty} f(x)\\, \\mathrm{e}^{-i \\xi x}$$\n",
+    "\n",
+    "\n",
+    "** Mais informações:** \n",
+    "- http://www.cercifaf.org.pt/moodle/help.php?file=markdown.html\n",
+    "-    http://www.math.uiuc.edu/~ajh/tex/course/intro2.html\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+[7m--More--(19%)[27m   },[K
+   "source": [
+    "## Comandos Mágicos\n",
+    "\n",
+    "- O IPython não só aceita o código Python, mas também comandos shell. Esses são definidos pelo sistema operacional (Wind
+ows, Linux, Mac OS X, etc.). Nós primeiro tipo! Em uma célula antes de digitar o comando shell. Aqui, obtemos a lista de note
+books no diretório atual."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Interfacejupyter.parte2.ipynb\r\n"
+     ]
+    }
+   ],
+[7m--More--(22%)[27m   "source": [
+    "!ls *.ipynb"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- O IPython vem com uma biblioteca de comandos mágicos. Esses comandos são atalhos convenientes para ações comuns. Todos
+ eles começam com% (% de caracteres). Você pode obter a lista de todos os comandos mágicos com % lsmagic."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(25%)[27m    }[K
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Available line magics:\n",
+       "%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info
+  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk 
+ %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %
+matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %pr
+ecision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload
+_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %tim
+eit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode\n",
+       "\n",
+       "Available cell magics:\n",
+       "%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%perl  %%prun  %%pypy  
+%%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile\n",
+       "\n",
+       "Automagic is ON, % prefix IS NOT needed for line magics."
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {
+[7m--More--(31%)[27m     },[K
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "%lsmagic"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**1. Células mágicas**\n",
+    "\n",
+    "- AS células mágicas tem um prefixo ** %%**: eles se aplicam a uma célula inteira no caderno.\n",
+    "- Por exemplo, célula mágica **%% writefile** permite que você crie um arquivo de texto facilmente. Este comando mágico 
+aceita um nome de arquivo como argumento. \n",
+    "- Todas as linhas restantes na célula são gravadas diretamente neste arquivo de texto. Aqui, criamos um arquivo **test.t
+xt** e escrevemos: **Hello world!**."
+[7m--More--(34%)[27m   ][K
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "** Vamos criar um arquivo de texto**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+[7m--More--(36%)[27m    {[K
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Overwriting test.txt\n"
+     ]
+    }
+   ],
+   "source": [
+    "%%writefile test.txt\n",
+    "Hello world!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Vamos verificar o conteúdo deste arquivo**"
+   ]
+[7m--More--(38%)[27m  },[K
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "with open('test.txt', 'r') as f:\n",
+    "    print(f.read())"
+   ]
+  },
+[7m--More--(39%)[27m  {[K
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Como você pode ver na saída de **%lsmagic**, há muitos comandos mágicos em IPython. Você pode encontrar mais informaçõ
+es sobre qualquer comando adicionando? Sim. Por exemplo, aqui está como obter ajuda sobre o comando `command?`:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "%run?"
+   ]
+[7m--More--(42%)[27m  },[K
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from __future__ import print_function\n",
+    "from IPython.core import page\n",
+    "page.page = print"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(44%)[27m    }[K
+   },
+   "source": [
+    "- Nós cobrimos o básico do IPython no notebook. Vejamos agora a rica exibição de recursos interativos do notebook. Até a
+gora, criamos apenas células de código, ou seja, células que contêm ... código. \n",
+    "- Existem outros tipos de células, notadamente células Markdown. Aqueles contêm texto rico formatado com Markdown, uma s
+intaxe de formatação de texto simples popular. \n",
+    "- Este formato suporta texto normal, cabeçalhos, negrito, itálico, links de hipertexto, imagens, equações matemáticas no
+ LaTeX, código, elementos HTML e outros recursos, conforme mostrado abaixo.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "### Código\n",
+    "\n",
+    "\n",
+    "```python\n",
+[7m--More--(48%)[27m    "print(\"Hello world!\")\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "### Imagens\n",
+    "\n",
+    "![This is an image](http://ipython.org/_static/IPy_header.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(50%)[27m    }[K
+   },
+   "source": [
+    "Combinando células de código e células de Markdown, você pode criar um documento interativo autônomo que combina computa
+ções (código), texto e gráficos.\n",
+    "\n",
+    "**1. Isso era para as células do Markdown. O IPython também vem com um sofisticado sistema de exibição que permite inser
+ir elementos ricos na web no notebook. Aqui, mostramos como adicionar HTML, SVG (Scalable Vector Graphics) e até mesmo vídeos
+ do Youtube em um notebook.**\n",
+    "\n",
+    "Primeiro, precisamos importar algumas classes.\n",
+    "Dentro [ ]:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "outputs": [
+[7m--More--(53%)[27m   ],[K
+   "source": [
+    "from IPython.display import HTML, SVG, YouTubeVideo"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Criamos uma tabela HTML dinamicamente com o Python, e a exibimos no bloco de notas (baseado em HTML)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(55%)[27m    }[K
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<table style=\"border: 2px solid black;\">\n",
+       "<tr><td>0,0</td><td>0,1</td><td>0,2</td><td>0,3</td><td>0,4</td></tr><tr><td>1,0</td><td>1,1</td><td>1,2</td><td>1,3<
+/td><td>1,4</td></tr><tr><td>2,0</td><td>2,1</td><td>2,2</td><td>2,3</td><td>2,4</td></tr><tr><td>3,0</td><td>3,1</td><td>3,2
+</td><td>3,3</td><td>3,4</td></tr><tr><td>4,0</td><td>4,1</td><td>4,2</td><td>4,3</td><td>4,4</td></tr>\n",
+       "</table>\n"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "HTML('''\n",
+    "<table style=\"border: 2px solid black;\">\n",
+    "''' + \n",
+[7m--More--(59%)[27m    "''.join(['<tr>' + \n",
+    "         ''.join(['<td>{row},{col}</td>'.format(\n",
+    "            row=row, col=col\n",
+    "            ) for col in range(5)]) +\n",
+    "         '</tr>' for row in range(5)]) +\n",
+    "'''\n",
+    "</table>\n",
+    "''')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Agora, ilustramos os recursos interativos mais recentes no IPython 2.0+. Esta versão traz widgets gráficos no notebook q
+ue podem interagir com objetos Python. Vamos criar um menu drop-down que nos permite exibir um entre vários vídeos."
+   ]
+  },
+  {
+[7m--More--(62%)[27m   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from collections import OrderedDict\n",
+    "from IPython.display import display, clear_output\n",
+    "from ipywidgets import Dropdown\n",
+    "#from IPython.html.widgets import DropdownWidget # IPython < 4.x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(64%)[27m    }[K
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "        <iframe\n",
+       "            width=\"400\"\n",
+       "            height=\"300\"\n",
+       "            src=\"https://www.youtube.com/embed/iwVvqwLDsJo\"\n",
+       "            frameborder=\"0\"\n",
+       "            allowfullscreen\n",
+       "        ></iframe>\n",
+       "        "
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+[7m--More--(66%)[27m    "# We create a Dropdown widget, with a dictionary containing\n",
+    "# the keys (video name) and the values (Youtube identifier) \n",
+    "# of every menu item.\n",
+    "dw = Dropdown(options=OrderedDict([\n",
+    "# dw = DropdownWidget(values=OrderedDict([ # IPython < 4.x\n",
+    "                        ('SciPy 2012', 'iwVvqwLDsJo'), \n",
+    "                        ('PyCon 2012', '2G5YTlheCbw'),\n",
+    "                        ('SciPy 2013', 'j9YpkSX7NNM')]))\n",
+    "# We create a callback function that displays the requested\n",
+    "# Youtube video.\n",
+    "def on_value_change(name, val):\n",
+    "    clear_output()\n",
+    "    display(YouTubeVideo(val))\n",
+    "# Every time the user selects an item, the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+    "# contains the value of the selected item.the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+    "# contains the value of the selected item.\n",
+    "dw.on_trait_change(on_value_change, 'value')\n",
+    "# We choose a default value.\n",
+    "dw.value = dw.options['SciPy 2013']\n",
+    "# dw.value = dw.values['SciPy 2013'] # IPyhon < 4.x\n",
+    "# Finally, we display the widget.\n",
+    "display(dw)"
+[7m--More--(72%)[27m   ][K
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Números e operações matemáticas\n",
+    "\n",
+    "**1. Operacões básicas**\n",
+    "\n",
+    "- As expressões do Python assemelha-se à notação matemáticas usuais:\n",
+    "\n",
+    "| Operador  | Descrição |\n",
+    "| ------------- | ------------- |\n",
+    "| +  | Adição  |\n",
+    "| *  | Multiplicação  |\n",
+    "| / | Divisão |\n",
+    "| ** | Exponenciação |\n",
+    "| % | Resto |"
+[7m--More--(75%)[27m   ][K
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**2. Atribuição de objetos a variáveis nomeadas**\n",
+    "- cria novas variáveis e dá a elas valores:"
+   ]
+  },
+  {
+[7m--More--(76%)[27m   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "E aí, Doutor?\n"
+     ]
+    }
+   ],
+   "source": [
+    "mensagem = \"E aí, Doutor?\"\n",
+    "n = 17\n",
+    "pi = 3.14159\n",
+    "print (mensagem)"
+   ]
+  },
+[7m--More--(78%)[27m  {[K
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Este exemplo faz três atribuições.\n",
+    "\n",
+    "![atribuições](atrib.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Exemplo 1.** Leia duas variáveis reais a e b, troque seus conteúdos e Imprima os valores trocados."
+[7m--More--(81%)[27m   ][K
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=1\n",
+    "b=7\n",
+[7m--More--(82%)[27m    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+[7m--More--(84%)[27m    "aux=7\n",
+    "b=1\n",
+    "a=aux\n",
+    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Exercícios \n",
+    "\n",
+    "- Crie um novo jupyter notebook e o nomeie **\"exercíciosdaaula27.03.2017\"**em **new** e utilizando-se do modo Markdown
+ escreva um título com nome: **Física Computacional 2017** e subtitulo escrito **Explorando a interface do SageMathCloud**. \
+n",
+    "- Ainda no mesmo notebook, porém em outro **kernel** escreva a equação abaixo em LaTeX: \n",
+    "![eq. Latex](exc5.png)\n"
+   ]
+[7m--More--(87%)[27m  },[K
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Faça o download de uma figura qualquer da internet e coloque dentro do diretório de respostas ou exercícios de aula. A
+pós isto, incluia esta imagem no mesmo notebook dos exercícios a cima. (Dica: Procure como incluir figuras em no modo Markdow
+n no help do jupyter notebook ou na internet).\n",
+    "- Utilizando o comando **writefile** crie um arquivo de texto com a frase: **Física Computacional 2017** e salve no dire
+tório de respostas, utilizando-se do mesmo notebook usado nos outros exercícios. Salve este notebook com a data de hoje no di
+retório de respostas.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(91%)[27m    }[K
+   },
+   "source": [
+    "## Desafio valendo 0.25 pontos (Pode ser feito em casa)\n",
+    "\n",
+    "** Crie um novo notebook com nome desafio na pasta respostas ou faça via jupyter notebook e envie na pasta respostas os 
+seguntes exercícios:**\n",
+    "\n",
+    "- Imprima a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Par
+a obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possív
+el obter a distância percorrida com a fórmula **DISTANCIA = TEMPO * VELOCIDADE**. Tendo o valor da distância, basta calcular 
+a quantidade de litros de combustível utilizada na viagem com a fórmula: **LITROS_USADOS = DISTANCIA / 12**. O programa deve 
+apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada n
+a viagem. \n",
+    "\n",
+    "- Calcule e Imprima o volume de uma esfera de raio R, onde R é um dado fornecido pelo usuário. O volume da esfera é dado
+ por: \n",
+    "$V=4\\pi R^3/3$\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+[7m--More--(96%)[27m    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "IPython Cookbook, by Cyrille Rossant, Packt Publishing, 2014 (500 pages)."
+   ]
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 3 (Ubuntu Linux)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+[7m--More--(98%)[27m   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.7"
+  },
+  "widgets": {
+   "state": {
+    "f9ca3e95d380446f9b3e6dca140cb390": {
+     "views": [
+      {
+       "cell_index": 52
+      }
+     ]
+    }
+   },
+   "version": "1.2.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
+]0;~/Aula4[01;34m~/Aula4[00m$   [33@more Interfacejupyter.parte2.ipynb[C
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+[7m--More--(1%)[27m    "\n",[K
+[7m--More--(2%)[27m    "- Primeiro e acima de tudo, o Notebook Jupyter é um ambiente interativo para escrever e executar código. O notebook é ca
+[7m--More--(2%)[27mpaz de executar código em uma ampla gama de idiomas. No entanto, cada notebook está associado a um único kernel. Este bloco d
+[7m--More--(3%)[27me notas está associado ao kernel do IPython, portanto executa código Python.\n",
+[7m--More--(3%)[27m    "\n",[K
+[7m--More--(3%)[27m    "- As células de código permitem que você digite e execute o código. Execute uma célula de código usando **Shift-Enter**"
+[7m--More--(4%)[27m   ][K
+[7m--More--(4%)[27m  },[K
+[7m--More--(4%)[27m  {[K
+[7m--More--(4%)[27m   "cell_type": "code",
+[7m--More--(4%)[27m   "execution_count": 3,
+[7m--More--(4%)[27m   "metadata": {
+[7m--More--(4%)[27m    "collapsed": false,
+[7m--More--(4%)[27m    "slideshow": {
+[7m--More--(4%)[27m     "slide_type": "-"
+[7m--More--(4%)[27m    }[K
+[7m--More--(4%)[27m   },[K
+[7m--More--(4%)[27m   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Hello world!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Existem dois outros atalhos de teclado para executar o código:\n",
+    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+[7m--More--(7%)[27m    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de Mardown.\n",
+    "- O texto pode ser adicionado aos notebooks Jupyter usando células Markdown. Markdown é uma linguagem de marcação popula
+r que é um superconjunto de HTML. Sua especificação pode ser encontrada aqui:\n",
+    "\n",
+    "Http://daringfireball.net/projects/markdown/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+[7m--More--(10%)[27m     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**1. Dar ênfase ao texto**\n",
+    "\n",
+    "- Você pode fazer o texto em *itálico* ou em **negrito**.\n",
+    "![M1](m1.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "source": [
+    "- A ênfase pode ser adicionada a palavras únicas, a uma sequência de palavras, ou mesmo às partes das palavras:\n",
+    "\n",
+    "![M2](m2.png)\n"
+   ]
+  },
+[7m--More--(12%)[27m  {[K
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**2. Título **\n",
+    "\n",
+    "- Markdown permite subdividir o texto com títulos; estão disponíveis seis níveis diferentes, embora não seja comum que u
+m texto normal use mais de três. Por exemplo, há três níveis de título usados no texto que está a ler actualmente.\n",
+    "\n",
+    "- Pode criar um título começando uma linha com um ou vários caracteres #. Usa-se um único caracter # para o título princ
+ipal, e quantos mais caracteres # usar, menos importante será o título.\n",
+    "\n",
+    "![M3](m3.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+[7m--More--(15%)[27m    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**3. Equações em LaTeX**\n",
+    "\n",
+    "\n",
+    "Cortesia de MathJax, você pode incluir expressões matemáticas tanto inline: $ e^{i \\pi} + 1 = 0 $ quanto em uma linha s
+eparada. Basta colocar a qualquer equação entre os simbolos \"$$\":\n",
+    "\n",
+    "$$ e^x = \\sum_{i = 0}^ \\infty \\frac{1}{i!} x ^i $$\n",
+    "\n",
+    "\n",
+    "ou ainda:\n",
+    "\n",
+    "$$\\hat{f}(\\xi) = \\int_{-\\infty}^{+\\infty} f(x)\\, \\mathrm{e}^{-i \\xi x}$$\n",
+    "\n",
+    "\n",
+    "** Mais informações:** \n",
+    "- http://www.cercifaf.org.pt/moodle/help.php?file=markdown.html\n",
+    "-    http://www.math.uiuc.edu/~ajh/tex/course/intro2.html\n"
+   ]
+  },
+[7m--More--(19%)[27m  {[K
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Comandos Mágicos\n",
+    "\n",
+    "- O IPython não só aceita o código Python, mas também comandos shell. Esses são definidos pelo sistema operacional (Wind
+ows, Linux, Mac OS X, etc.). Nós primeiro tipo! Em uma célula antes de digitar o comando shell. Aqui, obtemos a lista de note
+books no diretório atual."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+[7m--More--(21%)[27m     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Interfacejupyter.parte2.ipynb\r\n"
+     ]
+    }
+   ],
+   "source": [
+    "!ls *.ipynb"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- O IPython vem com uma biblioteca de comandos mágicos. Esses comandos são atalhos convenientes para ações comuns. Todos
+ eles começam com% (% de caracteres). Você pode obter a lista de todos os comandos mágicos com % lsmagic."
+   ]
+  },
+[7m--More--(24%)[27m  {[K
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Available line magics:\n",
+       "%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info
+  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk 
+ %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %
+matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %pr
+ecision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload
+_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %tim
+eit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode\n",
+       "\n",
+       "Available cell magics:\n",
+       "%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%perl  %%prun  %%pypy  
+[7m--More--(30%)[27m%%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile\n",
+       "\n",
+       "Automagic is ON, % prefix IS NOT needed for line magics."
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "%lsmagic"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+[7m--More--(32%)[27m    "**1. Células mágicas**\n",
+    "\n",
+    "- AS células mágicas tem um prefixo ** %%**: eles se aplicam a uma célula inteira no caderno.\n",
+    "- Por exemplo, célula mágica **%% writefile** permite que você crie um arquivo de texto facilmente. Este comando mágico 
+aceita um nome de arquivo como argumento. \n",
+    "- Todas as linhas restantes na célula são gravadas diretamente neste arquivo de texto. Aqui, criamos um arquivo **test.t
+xt** e escrevemos: **Hello world!**."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "** Vamos criar um arquivo de texto**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+[7m--More--(35%)[27m   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Overwriting test.txt\n"
+     ]
+    }
+   ],
+   "source": [
+    "%%writefile test.txt\n",
+    "Hello world!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+[7m--More--(37%)[27m    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Vamos verificar o conteúdo deste arquivo**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+[7m--More--(39%)[27m    }[K
+   ],
+   "source": [
+    "with open('test.txt', 'r') as f:\n",
+    "    print(f.read())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Como você pode ver na saída de **%lsmagic**, há muitos comandos mágicos em IPython. Você pode encontrar mais informaçõ
+es sobre qualquer comando adicionando? Sim. Por exemplo, aqui está como obter ajuda sobre o comando `command?`:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+[7m--More--(41%)[27m    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "%run?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from __future__ import print_function\n",
+    "from IPython.core import page\n",
+    "page.page = print"
+   ]
+[7m--More--(43%)[27m  },[K
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Nós cobrimos o básico do IPython no notebook. Vejamos agora a rica exibição de recursos interativos do notebook. Até a
+gora, criamos apenas células de código, ou seja, células que contêm ... código. \n",
+    "- Existem outros tipos de células, notadamente células Markdown. Aqueles contêm texto rico formatado com Markdown, uma s
+intaxe de formatação de texto simples popular. \n",
+    "- Este formato suporta texto normal, cabeçalhos, negrito, itálico, links de hipertexto, imagens, equações matemáticas no
+ LaTeX, código, elementos HTML e outros recursos, conforme mostrado abaixo.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+[7m--More--(47%)[27m    }[K
+   },
+   "source": [
+    "### Código\n",
+    "\n",
+    "\n",
+    "```python\n",
+    "print(\"Hello world!\")\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "### Imagens\n",
+    "\n",
+    "![This is an image](http://ipython.org/_static/IPy_header.png)"
+   ]
+[7m--More--(49%)[27m  },[K
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Combinando células de código e células de Markdown, você pode criar um documento interativo autônomo que combina computa
+ções (código), texto e gráficos.\n",
+    "\n",
+    "**1. Isso era para as células do Markdown. O IPython também vem com um sofisticado sistema de exibição que permite inser
+ir elementos ricos na web no notebook. Aqui, mostramos como adicionar HTML, SVG (Scalable Vector Graphics) e até mesmo vídeos
+ do Youtube em um notebook.**\n",
+    "\n",
+    "Primeiro, precisamos importar algumas classes.\n",
+    "Dentro [ ]:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+[7m--More--(52%)[27m   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from IPython.display import HTML, SVG, YouTubeVideo"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Criamos uma tabela HTML dinamicamente com o Python, e a exibimos no bloco de notas (baseado em HTML)."
+   ]
+  },
+[7m--More--(55%)[27m  {[K
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<table style=\"border: 2px solid black;\">\n",
+       "<tr><td>0,0</td><td>0,1</td><td>0,2</td><td>0,3</td><td>0,4</td></tr><tr><td>1,0</td><td>1,1</td><td>1,2</td><td>1,3<
+/td><td>1,4</td></tr><tr><td>2,0</td><td>2,1</td><td>2,2</td><td>2,3</td><td>2,4</td></tr><tr><td>3,0</td><td>3,1</td><td>3,2
+</td><td>3,3</td><td>3,4</td></tr><tr><td>4,0</td><td>4,1</td><td>4,2</td><td>4,3</td><td>4,4</td></tr>\n",
+       "</table>\n"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {
+     },
+[7m--More--(58%)[27m     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "HTML('''\n",
+    "<table style=\"border: 2px solid black;\">\n",
+    "''' + \n",
+    "''.join(['<tr>' + \n",
+    "         ''.join(['<td>{row},{col}</td>'.format(\n",
+    "            row=row, col=col\n",
+    "            ) for col in range(5)]) +\n",
+    "         '</tr>' for row in range(5)]) +\n",
+    "'''\n",
+    "</table>\n",
+    "''')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+[7m--More--(60%)[27m   },[K
+   "source": [
+    "Agora, ilustramos os recursos interativos mais recentes no IPython 2.0+. Esta versão traz widgets gráficos no notebook q
+ue podem interagir com objetos Python. Vamos criar um menu drop-down que nos permite exibir um entre vários vídeos."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from collections import OrderedDict\n",
+    "from IPython.display import display, clear_output\n",
+    "from ipywidgets import Dropdown\n",
+    "#from IPython.html.widgets import DropdownWidget # IPython < 4.x"
+   ]
+  },
+[7m--More--(63%)[27m  {[K
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "        <iframe\n",
+       "            width=\"400\"\n",
+       "            height=\"300\"\n",
+       "            src=\"https://www.youtube.com/embed/iwVvqwLDsJo\"\n",
+       "            frameborder=\"0\"\n",
+       "            allowfullscreen\n",
+       "        ></iframe>\n",
+       "        "
+      ]
+     },
+[7m--More--(66%)[27m     "execution_count": 7,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# We create a Dropdown widget, with a dictionary containing\n",
+    "# the keys (video name) and the values (Youtube identifier) \n",
+    "# of every menu item.\n",
+    "dw = Dropdown(options=OrderedDict([\n",
+    "# dw = DropdownWidget(values=OrderedDict([ # IPython < 4.x\n",
+    "                        ('SciPy 2012', 'iwVvqwLDsJo'), \n",
+    "                        ('PyCon 2012', '2G5YTlheCbw'),\n",
+    "                        ('SciPy 2013', 'j9YpkSX7NNM')]))\n",
+    "# We create a callback function that displays the requested\n",
+    "# Youtube video.\n",
+    "def on_value_change(name, val):\n",
+    "    clear_output()\n",
+    "    display(YouTubeVideo(val))\n",
+    "# Every time the user selects an item, the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+    "# contains the value of the selected item.the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+[7m--More--(71%)[27m    "# contains the value of the selected item.\n",
+    "dw.on_trait_change(on_value_change, 'value')\n",
+    "# We choose a default value.\n",
+    "dw.value = dw.options['SciPy 2013']\n",
+    "# dw.value = dw.values['SciPy 2013'] # IPyhon < 4.x\n",
+    "# Finally, we display the widget.\n",
+    "display(dw)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Números e operações matemáticas\n",
+    "\n",
+    "**1. Operacões básicas**\n",
+    "\n",
+    "- As expressões do Python assemelha-se à notação matemáticas usuais:\n",
+    "\n",
+[7m--More--(74%)[27m    "| Operador  | Descrição |\n",
+    "| ------------- | ------------- |\n",
+    "| +  | Adição  |\n",
+    "| *  | Multiplicação  |\n",
+    "| / | Divisão |\n",
+    "| ** | Exponenciação |\n",
+    "| % | Resto |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+[7m--More--(76%)[27m   },[K
+   "source": [
+    "**2. Atribuição de objetos a variáveis nomeadas**\n",
+    "- cria novas variáveis e dá a elas valores:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "E aí, Doutor?\n"
+     ]
+    }
+   ],
+[7m--More--(78%)[27m   "source": [
+    "mensagem = \"E aí, Doutor?\"\n",
+    "n = 17\n",
+    "pi = 3.14159\n",
+    "print (mensagem)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Este exemplo faz três atribuições.\n",
+    "\n",
+    "![atribuições](atrib.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+[7m--More--(80%)[27m    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Exemplo 1.** Leia duas variáveis reais a e b, troque seus conteúdos e Imprima os valores trocados."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+[7m--More--(82%)[27m      "7\n"[K
+     ]
+    }
+   ],
+   "source": [
+    "a=1\n",
+    "b=7\n",
+    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+[7m--More--(83%)[27m     "text": [
+      "7\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "aux=7\n",
+    "b=1\n",
+    "a=aux\n",
+    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Exercícios \n",
+[7m--More--(85%)[27m    "\n",[K
+    "- Crie um novo jupyter notebook e o nomeie **\"exercíciosdaaula27.03.2017\"**em **new** e utilizando-se do modo Markdown
+ escreva um título com nome: **Física Computacional 2017** e subtitulo escrito **Explorando a interface do SageMathCloud**. \
+n",
+    "- Ainda no mesmo notebook, porém em outro **kernel** escreva a equação abaixo em LaTeX: \n",
+    "![eq. Latex](exc5.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Faça o download de uma figura qualquer da internet e coloque dentro do diretório de respostas ou exercícios de aula. A
+pós isto, incluia esta imagem no mesmo notebook dos exercícios a cima. (Dica: Procure como incluir figuras em no modo Markdow
+n no help do jupyter notebook ou na internet).\n",
+    "- Utilizando o comando **writefile** crie um arquivo de texto com a frase: **Física Computacional 2017** e salve no dire
+tório de respostas, utilizando-se do mesmo notebook usado nos outros exercícios. Salve este notebook com a data de hoje no di
+retório de respostas.\n"
+   ]
+[7m--More--(90%)[27m  },[K
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Desafio valendo 0.25 pontos (Pode ser feito em casa)\n",
+    "\n",
+    "** Crie um novo notebook com nome desafio na pasta respostas ou faça via jupyter notebook e envie na pasta respostas os 
+seguntes exercícios:**\n",
+    "\n",
+    "- Imprima a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Par
+a obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possív
+el obter a distância percorrida com a fórmula **DISTANCIA = TEMPO * VELOCIDADE**. Tendo o valor da distância, basta calcular 
+a quantidade de litros de combustível utilizada na viagem com a fórmula: **LITROS_USADOS = DISTANCIA / 12**. O programa deve 
+apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada n
+a viagem. \n",
+    "\n",
+    "- Calcule e Imprima o volume de uma esfera de raio R, onde R é um dado fornecido pelo usuário. O volume da esfera é dado
+ por: \n",
+[7m--More--(95%)[27m    "$V=4\\pi R^3/3$\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "IPython Cookbook, by Cyrille Rossant, Packt Publishing, 2014 (500 pages)."
+   ]
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 3 (Ubuntu Linux)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+[7m--More--(97%)[27m   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.7"
+  },
+  "widgets": {
+   "state": {
+    "f9ca3e95d380446f9b3e6dca140cb390": {
+     "views": [
+      {
+       "cell_index": 52
+      }
+     ]
+    }
+   },
+   "version": "1.2.0"
+  }
+ },
+[7m--More--(99%)[27m "nbformat": 4,
+ "nbformat_minor": 0
+}
+]0;~/Aula4[01;34m~/Aula4[00m$  more Interfacejupyter.parte2.ipynb [1P[1P[1P[1P[1@l[1@e[1@s[1@s[C[1@ 
+[?1049h[22;0;0t[?1h={
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+[;7mInterfacejupyter.parte2.ipynb[;27m[K[K    "\n",
+    "- Primeiro e acima de tudo, o Notebook Jupyter é um ambiente interativo para escrever e executar código. O notebook é ca paz de executar código em uma ampla gama de idiomas. No entanto, cada notebook está associado a um único kernel. Este bloco d e notas está associado ao kernel do IPython, portanto executa código Python.\n",
+    "\n",
+    "- As células de código permitem que você digite e execute o código. Execute uma célula de código usando **Shift-Enter**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+:[K[K    }
+   ],
+   "source": [
+    "print (\"Hello world!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Existem dois outros atalhos de teclado para executar o código:\n",
+    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+:[K[K [KESCESC[KOO[KAA[K[HM     ]
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      "Hello world!\n"
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     "text": [
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     "output_type": "stream",
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     "name": "stdout",
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    {
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM   "outputs": [
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HM   },
+[25;1H[K:[K[K [KESCESC[KOO[KBB[K    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+:[K[K [KESCESC[KOO[KBB[K    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+:[K[K [KESCESC[KOO[KBB[K   ]
+:[K[K [KESCESC[KOO[KBB[K  },
+:[K[K [KESCESC[KOO[KBB[K  {
+:[K[K [KESCESC[KOO[KBB[K   "cell_type": "markdown",
+:[K[K [KESCESC[KOO[KBB[K   "metadata": {
+:[K[K [KESCESC[KOO[KBB[K    "collapsed": false,
+:[K[K [KESCESC[KOO[KBB[K    "slideshow": {
+:[K[K/[Kss[Kll[Kii[Kdd[Kee[K[1;1H   ],
+[2;1H   "source": [
+[3;1H    "print (\"Hello world!\")"
+[4;1H   ]
+[5;1H  },
+[6;1H  {
+[7;1H   "cell_type": "markdown",
+[8;1H   "metadata": {
+[9;1H    "collapsed": false,
+[10;1H    "slideshow": {
+[11;1H     "slide_type": "subslide"
+[12;1H    }
+[13;1H   },
+[14;1H   "source": [
+[15;1H    "Existem dois outros atalhos de teclado para executar o código:\n",
+[16;1H    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+[17;1H    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+[18;1H   ]
+[19;1H  },
+[20;1H  {
+[21;1H   "cell_type": "markdown",
+[22;1H   "metadata": {
+[23;1H    "collapsed": false,
+[24;1H    "slideshow": {
+[25;1H[1;1H   ],
+[2;1H   "source": [
+[3;1H    "print (\"Hello world!\")"
+[4;1H   ]
+[5;1H  },
+[6;1H  {
+[7;1H   "cell_type": "markdown",
+[8;1H   "metadata": {
+[9;1H    "collapsed": false,
+[10;1H    "[;7mslide[;27mshow": {
+[11;1H     "[;7mslide[;27m_type": "sub[;7mslide[;27m"
+[12;1H    }
+[13;1H   },
+[14;1H   "source": [
+[15;1H    "Existem dois outros atalhos de teclado para executar o código:\n",
+[16;1H    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+[17;1H    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+[18;1H   ]
+[19;1H  },
+[20;1H  {
+[21;1H   "cell_type": "markdown",
+[22;1H   "metadata": {
+[23;1H    "collapsed": false,
+[24;1H    "[;7mslide[;27mshow": {
+[25;1H     "[;7mslide[;27m_type": "sub[;7mslide[;27m"
+    }
+   },
+   "source": [
+    "## Executando o modo de Mardown.\n",
+    "- O texto pode ser adicionado aos notebooks Jupyter usando células Markdown. Markdown é uma linguagem de marcação popula r que é um superconjunto de HTML. Sua especificação pode ser encontrada aqui:\n",
+    "\n",
+    "Http://daringfireball.net/projects/markdown/"
+:[K[K [KESCESC[KOO[KBB[K   ]
+:[K[K [KESCESC[KOO[KBB[K  },
+:[K[K [KESCESC[KOO[KBB[K  {
+:[K[K [KESCESC[KOO[KBB[K   "cell_type": "markdown",
+:[K[K [KESCESC[KOO[KBB[K   "metadata": {
+:[K[K [KESCESC[KOO[KBB[K    "collapsed": false,
+:[K[K [KESCESC[KOO[KBB[K    "[;7mslide[;27mshow": {
+:[K[K [KESCESC[KOO[KBB[K     "[;7mslide[;27m_type": "sub[;7mslide[;27m"
+:[K[K [KESCESC[KOO[KBB[K    }
+:[K[K [KESCESC[KOO[KBB[K   },
+:[K[K [KESCESC[KOO[KBB[K   "source": [
+:[K[K [KESCESC[KOO[KBB[K    "**1. Dar ênfase ao texto**\n",
+:[K[K [KESCESC[KOO[KBB[K    "\n",
+:[K[K [KESCESC[KOO[KBB[K    "- Você pode fazer o texto em *itálico* ou em **negrito**.\n",
+:[K[K [KESCESC[KOO[KBB[K    "![M1](m1.png)\n"
+:[K[K [KESCESC[KOO[KBB[K   ]
+:[K[K [KESCESC[KOO[KBB[K  },
+:[K[K [KESCESC[KOO[KBB[K  {
+:[K[K [KESCESC[KOO[KBB[K   "cell_type": "markdown",
+:[K[K [KESCESC[KOO[KBB[K   "metadata": {
+:[K[K [KESCESC[KOO[KBB[K    "collapsed": false,
+:[K[K [KESCESC[KOO[KBB[K    "[;7mslide[;27mshow": {
+:[K[K [KESCESC[KOO[KBB[K     "[;7mslide[;27m_type": "-"
+:[K[K [KESCESC[KOO[KAA[K[HM    "\n",
+[25;1H[K:[K[K [KESCESC[KOO[KAA[K[HMr que é um superconjunto de HTML. Sua especificação pode ser encontrada aqui:\n",
+[25;1H[K:[K[K[?1l>[?1049l[23;0;0t]0;~/Aula4[01;34m~/Aula4[00m$ wc DUE_DATE.txt 
+ 2  6 46 DUE_DATE.txt
+]0;~/Aula4[01;34m~/Aula4[00m$ head Interfacejupyter.parte2.ipynb 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+]0;~/Aula4[01;34m~/Aula4[00m$ head Interfacejupyter.parte2.ipynb [C[C[C[1P[1P[1P[1P[1@t[1@a[1@i[1@l[C[1@ 
+      }
+     ]
+    }
+   },
+   "version": "1.2.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}]0;~/Aula4[01;34m~/Aula4[00m$ cat [K[K[K[Kls
+2019-03-15-143138.term  ComandosLinux.ipynb  Interfacejupyter.parte2.ipynb  [0m[01;31mkkk.zip[0m  [01;31mkkk2.zip[0m
+[01;34mAula03.04.2017[0m          DUE_DATE.txt         kkk                            kkk2
+]0;~/Aula4[01;34m~/Aula4[00m$ kk[K[Kcat kkk kkk2
+This assignment is due
+
+   18/03/2019 13:57:21{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "# Projeto Jupyter Notebook e Interface do SageMathCloud\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de comando (**code**).\n",
+    "\n",
+    "- Primeiro e acima de tudo, o Notebook Jupyter é um ambiente interativo para escrever e executar código. O notebook é capaz de executar código em uma ampla gama de idiomas. No entanto, cada notebook está associado a um único kernel. Este bloco de notas está associado ao kernel do IPython, portanto executa código Python.\n",
+    "\n",
+    "- As células de código permitem que você digite e execute o código. Execute uma célula de código usando **Shift-Enter**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Hello world!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Existem dois outros atalhos de teclado para executar o código:\n",
+    "  - ** Alt-Enter** executa a célula atual e insere uma nova abaixo.\n",
+    "  - ** Ctrl-Enter** executa a célula atual e entra no modo de comando."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Executando o modo de Mardown.\n",
+    "- O texto pode ser adicionado aos notebooks Jupyter usando células Markdown. Markdown é uma linguagem de marcação popular que é um superconjunto de HTML. Sua especificação pode ser encontrada aqui:\n",
+    "\n",
+    "Http://daringfireball.net/projects/markdown/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**1. Dar ênfase ao texto**\n",
+    "\n",
+    "- Você pode fazer o texto em *itálico* ou em **negrito**.\n",
+    "![M1](m1.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "-"
+    }
+   },
+   "source": [
+    "- A ênfase pode ser adicionada a palavras únicas, a uma sequência de palavras, ou mesmo às partes das palavras:\n",
+    "\n",
+    "![M2](m2.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**2. Título **\n",
+    "\n",
+    "- Markdown permite subdividir o texto com títulos; estão disponíveis seis níveis diferentes, embora não seja comum que um texto normal use mais de três. Por exemplo, há três níveis de título usados no texto que está a ler actualmente.\n",
+    "\n",
+    "- Pode criar um título começando uma linha com um ou vários caracteres #. Usa-se um único caracter # para o título principal, e quantos mais caracteres # usar, menos importante será o título.\n",
+    "\n",
+    "![M3](m3.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**3. Equações em LaTeX**\n",
+    "\n",
+    "\n",
+    "Cortesia de MathJax, você pode incluir expressões matemáticas tanto inline: $ e^{i \\pi} + 1 = 0 $ quanto em uma linha separada. Basta colocar a qualquer equação entre os simbolos \"$$\":\n",
+    "\n",
+    "$$ e^x = \\sum_{i = 0}^ \\infty \\frac{1}{i!} x ^i $$\n",
+    "\n",
+    "\n",
+    "ou ainda:\n",
+    "\n",
+    "$$\\hat{f}(\\xi) = \\int_{-\\infty}^{+\\infty} f(x)\\, \\mathrm{e}^{-i \\xi x}$$\n",
+    "\n",
+    "\n",
+    "** Mais informações:** \n",
+    "- http://www.cercifaf.org.pt/moodle/help.php?file=markdown.html\n",
+    "-    http://www.math.uiuc.edu/~ajh/tex/course/intro2.html\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Comandos Mágicos\n",
+    "\n",
+    "- O IPython não só aceita o código Python, mas também comandos shell. Esses são definidos pelo sistema operacional (Windows, Linux, Mac OS X, etc.). Nós primeiro tipo! Em uma célula antes de digitar o comando shell. Aqui, obtemos a lista de notebooks no diretório atual."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Interfacejupyter.parte2.ipynb\r\n"
+     ]
+    }
+   ],
+   "source": [
+    "!ls *.ipynb"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- O IPython vem com uma biblioteca de comandos mágicos. Esses comandos são atalhos convenientes para ações comuns. Todos eles começam com% (% de caracteres). Você pode obter a lista de todos os comandos mágicos com % lsmagic."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Available line magics:\n",
+       "%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode\n",
+       "\n",
+       "Available cell magics:\n",
+       "%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile\n",
+       "\n",
+       "Automagic is ON, % prefix IS NOT needed for line magics."
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "%lsmagic"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**1. Células mágicas**\n",
+    "\n",
+    "- AS células mágicas tem um prefixo ** %%**: eles se aplicam a uma célula inteira no caderno.\n",
+    "- Por exemplo, célula mágica **%% writefile** permite que você crie um arquivo de texto facilmente. Este comando mágico aceita um nome de arquivo como argumento. \n",
+    "- Todas as linhas restantes na célula são gravadas diretamente neste arquivo de texto. Aqui, criamos um arquivo **test.txt** e escrevemos: **Hello world!**."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "** Vamos criar um arquivo de texto**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Overwriting test.txt\n"
+     ]
+    }
+   ],
+   "source": [
+    "%%writefile test.txt\n",
+    "Hello world!"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Vamos verificar o conteúdo deste arquivo**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "with open('test.txt', 'r') as f:\n",
+    "    print(f.read())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Como você pode ver na saída de **%lsmagic**, há muitos comandos mágicos em IPython. Você pode encontrar mais informações sobre qualquer comando adicionando? Sim. Por exemplo, aqui está como obter ajuda sobre o comando `command?`:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "%run?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from __future__ import print_function\n",
+    "from IPython.core import page\n",
+    "page.page = print"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Nós cobrimos o básico do IPython no notebook. Vejamos agora a rica exibição de recursos interativos do notebook. Até agora, criamos apenas células de código, ou seja, células que contêm ... código. \n",
+    "- Existem outros tipos de células, notadamente células Markdown. Aqueles contêm texto rico formatado com Markdown, uma sintaxe de formatação de texto simples popular. \n",
+    "- Este formato suporta texto normal, cabeçalhos, negrito, itálico, links de hipertexto, imagens, equações matemáticas no LaTeX, código, elementos HTML e outros recursos, conforme mostrado abaixo.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "### Código\n",
+    "\n",
+    "\n",
+    "```python\n",
+    "print(\"Hello world!\")\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "### Imagens\n",
+    "\n",
+    "![This is an image](http://ipython.org/_static/IPy_header.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Combinando células de código e células de Markdown, você pode criar um documento interativo autônomo que combina computações (código), texto e gráficos.\n",
+    "\n",
+    "**1. Isso era para as células do Markdown. O IPython também vem com um sofisticado sistema de exibição que permite inserir elementos ricos na web no notebook. Aqui, mostramos como adicionar HTML, SVG (Scalable Vector Graphics) e até mesmo vídeos do Youtube em um notebook.**\n",
+    "\n",
+    "Primeiro, precisamos importar algumas classes.\n",
+    "Dentro [ ]:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from IPython.display import HTML, SVG, YouTubeVideo"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Criamos uma tabela HTML dinamicamente com o Python, e a exibimos no bloco de notas (baseado em HTML)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "<table style=\"border: 2px solid black;\">\n",
+       "<tr><td>0,0</td><td>0,1</td><td>0,2</td><td>0,3</td><td>0,4</td></tr><tr><td>1,0</td><td>1,1</td><td>1,2</td><td>1,3</td><td>1,4</td></tr><tr><td>2,0</td><td>2,1</td><td>2,2</td><td>2,3</td><td>2,4</td></tr><tr><td>3,0</td><td>3,1</td><td>3,2</td><td>3,3</td><td>3,4</td></tr><tr><td>4,0</td><td>4,1</td><td>4,2</td><td>4,3</td><td>4,4</td></tr>\n",
+       "</table>\n"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "HTML('''\n",
+    "<table style=\"border: 2px solid black;\">\n",
+    "''' + \n",
+    "''.join(['<tr>' + \n",
+    "         ''.join(['<td>{row},{col}</td>'.format(\n",
+    "            row=row, col=col\n",
+    "            ) for col in range(5)]) +\n",
+    "         '</tr>' for row in range(5)]) +\n",
+    "'''\n",
+    "</table>\n",
+    "''')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "Agora, ilustramos os recursos interativos mais recentes no IPython 2.0+. Esta versão traz widgets gráficos no notebook que podem interagir com objetos Python. Vamos criar um menu drop-down que nos permite exibir um entre vários vídeos."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": true,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+   ],
+   "source": [
+    "from collections import OrderedDict\n",
+    "from IPython.display import display, clear_output\n",
+    "from ipywidgets import Dropdown\n",
+    "#from IPython.html.widgets import DropdownWidget # IPython < 4.x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "        <iframe\n",
+       "            width=\"400\"\n",
+       "            height=\"300\"\n",
+       "            src=\"https://www.youtube.com/embed/iwVvqwLDsJo\"\n",
+       "            frameborder=\"0\"\n",
+       "            allowfullscreen\n",
+       "        ></iframe>\n",
+       "        "
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# We create a Dropdown widget, with a dictionary containing\n",
+    "# the keys (video name) and the values (Youtube identifier) \n",
+    "# of every menu item.\n",
+    "dw = Dropdown(options=OrderedDict([\n",
+    "# dw = DropdownWidget(values=OrderedDict([ # IPython < 4.x\n",
+    "                        ('SciPy 2012', 'iwVvqwLDsJo'), \n",
+    "                        ('PyCon 2012', '2G5YTlheCbw'),\n",
+    "                        ('SciPy 2013', 'j9YpkSX7NNM')]))\n",
+    "# We create a callback function that displays the requested\n",
+    "# Youtube video.\n",
+    "def on_value_change(name, val):\n",
+    "    clear_output()\n",
+    "    display(YouTubeVideo(val))\n",
+    "# Every time the user selects an item, the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+    "# contains the value of the selected item.the function\n",
+    "# `on_value_change` is called, and the `val` argument\n",
+    "# contains the value of the selected item.\n",
+    "dw.on_trait_change(on_value_change, 'value')\n",
+    "# We choose a default value.\n",
+    "dw.value = dw.options['SciPy 2013']\n",
+    "# dw.value = dw.values['SciPy 2013'] # IPyhon < 4.x\n",
+    "# Finally, we display the widget.\n",
+    "display(dw)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Números e operações matemáticas\n",
+    "\n",
+    "**1. Operacões básicas**\n",
+    "\n",
+    "- As expressões do Python assemelha-se à notação matemáticas usuais:\n",
+    "\n",
+    "| Operador  | Descrição |\n",
+    "| ------------- | ------------- |\n",
+    "| +  | Adição  |\n",
+    "| *  | Multiplicação  |\n",
+    "| / | Divisão |\n",
+    "| ** | Exponenciação |\n",
+    "| % | Resto |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "**2. Atribuição de objetos a variáveis nomeadas**\n",
+    "- cria novas variáveis e dá a elas valores:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "E aí, Doutor?\n"
+     ]
+    }
+   ],
+   "source": [
+    "mensagem = \"E aí, Doutor?\"\n",
+    "n = 17\n",
+    "pi = 3.14159\n",
+    "print (mensagem)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Este exemplo faz três atribuições.\n",
+    "\n",
+    "![atribuições](atrib.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    " **Exemplo 1.** Leia duas variáveis reais a e b, troque seus conteúdos e Imprima os valores trocados."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=1\n",
+    "b=7\n",
+    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "aux=7\n",
+    "b=1\n",
+    "a=aux\n",
+    "print (a)\n",
+    "print (b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "slide"
+    }
+   },
+   "source": [
+    "## Exercícios \n",
+    "\n",
+    "- Crie um novo jupyter notebook e o nomeie **\"exercíciosdaaula27.03.2017\"**em **new** e utilizando-se do modo Markdown escreva um título com nome: **Física Computacional 2017** e subtitulo escrito **Explorando a interface do SageMathCloud**. \n",
+    "- Ainda no mesmo notebook, porém em outro **kernel** escreva a equação abaixo em LaTeX: \n",
+    "![eq. Latex](exc5.png)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "- Faça o download de uma figura qualquer da internet e coloque dentro do diretório de respostas ou exercícios de aula. Após isto, incluia esta imagem no mesmo notebook dos exercícios a cima. (Dica: Procure como incluir figuras em no modo Markdown no help do jupyter notebook ou na internet).\n",
+    "- Utilizando o comando **writefile** crie um arquivo de texto com a frase: **Física Computacional 2017** e salve no diretório de respostas, utilizando-se do mesmo notebook usado nos outros exercícios. Salve este notebook com a data de hoje no diretório de respostas.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "## Desafio valendo 0.25 pontos (Pode ser feito em casa)\n",
+    "\n",
+    "** Crie um novo notebook com nome desafio na pasta respostas ou faça via jupyter notebook e envie na pasta respostas os seguntes exercícios:**\n",
+    "\n",
+    "- Imprima a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula **DISTANCIA = TEMPO * VELOCIDADE**. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: **LITROS_USADOS = DISTANCIA / 12**. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem. \n",
+    "\n",
+    "- Calcule e Imprima o volume de uma esfera de raio R, onde R é um dado fornecido pelo usuário. O volume da esfera é dado por: \n",
+    "$V=4\\pi R^3/3$\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false,
+    "slideshow": {
+     "slide_type": "subslide"
+    }
+   },
+   "source": [
+    "IPython Cookbook, by Cyrille Rossant, Packt Publishing, 2014 (500 pages)."
+   ]
+  }
+ ],
+ "metadata": {
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 3 (Ubuntu Linux)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.7"
+  },
+  "widgets": {
+   "state": {
+    "f9ca3e95d380446f9b3e6dca140cb390": {
+     "views": [
+      {
+       "cell_index": 52
+      }
+     ]
+    }
+   },
+   "version": "1.2.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}]0;~/Aula4[01;34m~/Aula4[00m$ grep kkk teste
+grep: teste: No such file or directory
+]0;~/Aula4[01;34m~/Aula4[00m$ grep kkk teste[K[K[K[K[K[K[K[K[K[Kteste [K[K[K[K[K[K[Kp teste kkk
+]0;~/Aula4[01;34m~/Aula4[00m$ grep teste kkk[C[1P kkk[1P kkk[1P kkk[1P kkk[1P kkks kkkl kkki kkkd kkke kkk[C kkk
+]0;~/Aula4[01;34m~/Aula4[00m$ grep slide  kkk[1P[1P[1P[1P[1P[1@v[1@e[1@r[1@s[1@i[1@o[1@n
+]0;~/Aula4[01;34m~/Aula4[00m$ grep version  kkk2
+    "[01;31m[Kversion[m[K": 3
+   "[01;31m[Kversion[m[K": "3.6.7"
+   "[01;31m[Kversion[m[K": "1.2.0"
+]0;~/Aula4[01;34m~/Aula4[00m$ ping 200.145.134.134
+PING 200.145.134.134 (200.145.134.134) 56(84) bytes of data.
+^C
+--- 200.145.134.134 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3070ms
+
+]0;~/Aula4[01;34m~/Aula4[00m$ ping 200.145.134.134[K[K
+PING 200.145.134.1 (200.145.134.1) 56(84) bytes of data.
+^C
+--- 200.145.134.1 ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5098ms
+
+]0;~/Aula4[01;34m~/Aula4[00m$ ping 200.145.134.1[K[K[K[K.1
+PING 200.145.1.1 (200.145.1.1) 56(84) bytes of data.
+64 bytes from 200.145.1.1: icmp_seq=1 ttl=54 time=120 ms
+64 bytes from 200.145.1.1: icmp_seq=2 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=3 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=4 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=5 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=6 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=7 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=8 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=9 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=10 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=11 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=12 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=13 ttl=54 time=119 ms
+64 bytes from 200.145.1.1: icmp_seq=14 ttl=54 time=119 ms
+^C
+--- 200.145.1.1 ping statistics ---
+15 packets transmitted, 14 received, 6% packet loss, time 14023ms
+rtt min/avg/max/mdev = 119.558/119.767/120.391/0.308 ms
+]0;~/Aula4[01;34m~/Aula4[00m$ ping 200.145.1.1[K[K[K[K[K[K[K[K[K[K[Kwww.gg[Koogle.com
+PING www.google.com (74.125.141.99) 56(84) bytes of data.
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=1 ttl=51 time=1.08 ms
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=2 ttl=51 time=0.417 ms
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=3 ttl=51 time=0.435 ms
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=4 ttl=51 time=0.466 ms
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=5 ttl=51 time=0.502 ms
+64 bytes from vl-in-f99.1e100.net (74.125.141.99): icmp_seq=6 ttl=51 time=0.424 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5084ms
+rtt min/avg/max/mdev = 0.417/0.555/1.088/0.240 ms
+]0;~/Aula4[01;34m~/Aula4[00m$ ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=1.36 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=51 time=0.417 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=51 time=0.375 ms
+^C
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 0.375/0.719/1.367/0.459 ms
+]0;~/Aula4[01;34m~/Aula4[00m$ ifconfig
+bash: ifconfig: command not found
+]0;~/Aula4[01;34m~/Aula4[00m$  

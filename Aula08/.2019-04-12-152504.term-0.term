@@ -1,0 +1,23 @@
+]0;~/Aula8[01;34m~/Aula8[00m$ ls
+ 2019-04-12-152504.term               [0m[01;31marq_janeiro_verão,txt.gz[0m          [01;31m'arq_março_outono.txt'$'\n''.gz'[0m
+ Aula8.ipynb                          arq_janeiro_verão.txt              [01;31marq_março_outono.txt.gz[0m
+ [01;31marq_abril_outono,txt.gz[0m             [01;31m'arq_janeiro_verão.txt'$'\n''.gz'[0m   [01;31marq_novembro_primavera,txt.gz[0m
+ arq_abril_outono.txt                 [01;31marq_janeiro_verão.txt.gz[0m           arq_novembro_primavera.txt
+[01;31m'arq_abril_outono.txt'$'\n''.gz'[0m      [01;31marq_julho_inverno,txt.gz[0m          [01;31m'arq_novembro_primavera.txt'$'\n''.gz'[0m
+ [01;31marq_abril_outono.txt.gz[0m              arq_julho_inverno.txt              [01;31marq_novembro_primavera.txt.gz[0m
+ [01;31marq_agosto_inverno,txt.gz[0m           [01;31m'arq_julho_inverno.txt'$'\n''.gz'[0m   [01;31marq_outubro_primavera,txt.gz[0m
+ arq_agosto_inverno.txt               [01;31marq_julho_inverno.txt.gz[0m           arq_outubro_primavera.txt
+[01;31m'arq_agosto_inverno.txt'$'\n''.gz'[0m    [01;31marq_junho_inverno,txt.gz[0m          [01;31m'arq_outubro_primavera.txt'$'\n''.gz'[0m
+ [01;31marq_agosto_inverno.txt.gz[0m            arq_junho_inverno.txt              [01;31marq_outubro_primavera.txt.gz[0m
+ [01;31marq_dezembro_verão,txt.gz[0m           [01;31m'arq_junho_inverno.txt'$'\n''.gz'[0m   [01;31marq_setembro_primavera,txt.gz[0m
+ arq_dezembro_verão.txt               [01;31marq_junho_inverno.txt.gz[0m           arq_setembro_primavera.txt
+[01;31m'arq_dezembro_verão.txt'$'\n''.gz'[0m    [01;31marq_maio_outono,txt.gz[0m            [01;31m'arq_setembro_primavera.txt'$'\n''.gz'[0m
+ [01;31marq_dezembro_verão.txt.gz[0m            arq_maio_outono.txt                [01;31marq_setembro_primavera.txt.gz[0m
+ [01;31marq_fevereiro_verão,txt.gz[0m          [01;31m'arq_maio_outono.txt'$'\n''.gz'[0m     matriznum.csv
+ arq_fevereiro_verão.txt              [01;31marq_maio_outono.txt.gz[0m             test.dat
+[01;31m'arq_fevereiro_verão.txt'$'\n''.gz'[0m   [01;31marq_março_outono,txt.gz[0m            teste.ipynb
+ [01;31marq_fevereiro_verão.txt.gz[0m           arq_março_outono.txt               texto.txt
+]0;~/Aula8[01;34m~/Aula8[00m$ rm arq_*
+]0;~/Aula8[01;34m~/Aula8[00m$ ls
+2019-04-12-152504.term  Aula8.ipynb  matriznum.csv  test.dat  teste.ipynb  texto.txt
+]0;~/Aula8[01;34m~/Aula8[00m$ ]0;~/Aula8[01;34m~/Aula8[00m$ 

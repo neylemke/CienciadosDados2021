@@ -1,0 +1,9 @@
+{"backend_state":"running","kernel":"anaconda3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":89837568},"trust":true,"type":"settings"}
+{"cell_type":"code","end":1552071857776,"exec_count":4,"id":"795549","input":"%%writefile test2.txt\nHello world!","kernel":"anaconda3","output":{"0":{"name":"stdout","text":"Writing test2.txt\n"}},"pos":-1,"slide":"subslide","start":1552071857768,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":2,"id":"42aee6","input":"![teste](tut6.png)","kernel":"anaconda3","pos":2,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"97173b","input":"Podemos inserir imagens também:\n\n![This is an image](http://ipython.org/_static/IPy_header.png)","pos":1,"slide":"subslide","state":"done","type":"cell"}
+{"cell_type":"markdown","id":"cf81ec","input":"Podemos inserir imagens também:\n\n![imagem](tut7.png)","pos":-0.5,"slide":"subslide","state":"done","type":"cell"}
+{"id":"5bd1ff","input":"","pos":3,"type":"cell"}
+{"id":"772379","input":"","pos":0,"state":"done","type":"cell"}
+{"id":0,"time":1552069215611,"type":"user"}
+{"last_load":1552069215382,"type":"file"}

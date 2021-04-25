@@ -1,0 +1,9 @@
+{"backend_state":"ready","kernel":"anaconda3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":89604096},"trust":true,"type":"settings"}
+{"cell_type":"markdown","id":"1f2997","input":"df=[{terreno=\"saibro\"}]","pos":4,"state":"done","type":"cell"}
+{"end":1557511117754,"exec_count":1,"id":"d0a5b0","input":"from date import *","kernel":"anaconda3","output":{"0":{"ename":"ImportError","evalue":"No module named 'date'","traceback":["\u001b[0;31m---------------------------------------------------------------------------\u001b[0m","\u001b[0;31mImportError\u001b[0m                               Traceback (most recent call last)","\u001b[0;32m<ipython-input-1-ae9f08bded96>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mfrom\u001b[0m \u001b[0mdate\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0;34m*\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m","\u001b[0;31mImportError\u001b[0m: No module named 'date'"]}},"pos":0,"start":1557511117287,"state":"done","type":"cell"}
+{"end":1557513126597,"exec_count":3,"id":"ce2fda","input":"from datetime import date, timedelta,datetime","kernel":"anaconda3","pos":1,"start":1557513126586,"state":"done","type":"cell"}
+{"end":1557513137483,"exec_count":5,"id":"62d4c4","input":"hoje=date.today()","kernel":"anaconda3","pos":2,"start":1557513137478,"state":"done","type":"cell"}
+{"end":1557513152314,"exec_count":7,"id":"4d60b1","input":"[hoje +timedelta(weeks=n) for n in range(6)]","kernel":"anaconda3","output":{"0":{"data":{"text/plain":"[datetime.date(2019, 5, 10),\n datetime.date(2019, 5, 17),\n datetime.date(2019, 5, 24),\n datetime.date(2019, 5, 31),\n datetime.date(2019, 6, 7),\n datetime.date(2019, 6, 14)]"},"exec_count":7}},"pos":3,"start":1557513152305,"state":"done","type":"cell"}
+{"id":"2350e4","input":"","pos":5,"state":"done","type":"cell"}
+{"id":0,"time":1557511095928,"type":"user"}
+{"last_load":1557511095642,"type":"file"}

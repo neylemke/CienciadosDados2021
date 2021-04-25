@@ -1,0 +1,7 @@
+]0;~/2019-02-22-131223/Aula1[01;34m~/2019-02-22-131223/Aula1[00m$ jupyter nbconvert --to slides --ServePostProcessor.port=18080 --ServePostProcessor.ip='*' --ServePostProcessorr.open_in_browser=False ~/'2019-02-22-131223/Aula1/Configuracao.ipynb' --post serve
+[NbConvertApp] Converting notebook /home/user/2019-02-22-131223/Aula1/Configuracao.ipynb to slides
+[NbConvertApp] Writing 287703 bytes to /home/user/2019-02-22-131223/Aula1/Configuracao.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+Serving your slides at http://*:18080/Configuracao.slides.html
+Use Control-C to stop this server
+WARNING:tornado.access:404 GET /custom.css (192.168.115.33) 0.51ms

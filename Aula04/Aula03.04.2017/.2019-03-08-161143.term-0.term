@@ -1,0 +1,17 @@
+]0;~/fiscomp2017/Aula03.04.2017[01;34m~/fiscomp2017/Aula03.04.2017[00m$ ls *
+2019-03-08-161143.term  [0m[01;35m800px-Iranian_Astrolabe_14.jpg[0m  [01;35mexc5.png[0m                    [01;35mlinguagens.png[0m  [01;35mm2.png[0m
+[01;35m800px-Hp-35_1972.jpg[0m    ComandosLinux.ipynb             exercicio.03.04.2017.ipynb  [01;35mm1.png[0m
+]0;~/fiscomp2017/Aula03.04.2017[01;34m~/fiscomp2017/Aula03.04.2017[00m$ ls > teste.tex
+]0;~/fiscomp2017/Aula03.04.2017[01;34m~/fiscomp2017/Aula03.04.2017[00m$ rm [K[K[Kmore teste.tex
+2019-03-08-161143.term
+800px-Hp-35_1972.jpg
+800px-Iranian_Astrolabe_14.jpg
+ComandosLinux.ipynb
+exc5.png
+exercicio.03.04.2017.ipynb
+linguagens.png
+m1.png
+m2.png
+teste.tex
+]0;~/fiscomp2017/Aula03.04.2017[01;34m~/fiscomp2017/Aula03.04.2017[00m$ rm teste.tex
+]0;~/fiscomp2017/Aula03.04.2017[01;34m~/fiscomp2017/Aula03.04.2017[00m$ 
