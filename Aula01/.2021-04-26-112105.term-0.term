@@ -1,0 +1,118 @@
+]0;~/CienciadosDados2021/Aula01[01;34m~/CienciadosDados2021/Aula01[00m$ cd
+]0;~[01;34m~[00m$ pwd
+/home/user
+]0;~[01;34m~[00m$ ssh
+ssh               ssh-agent         ssh-copy-id       ssh-import-id-gh  ssh-keygen        sshfs             
+ssh-add           ssh-argv0         ssh-import-id     ssh-import-id-lp  ssh-keyscan       
+]0;~[01;34m~[00m$ ssh
+ssh               ssh-agent         ssh-copy-id       ssh-import-id-gh  ssh-keygen        sshfs             
+ssh-add           ssh-argv0         ssh-import-id     ssh-import-id-lp  ssh-keyscan       
+]0;~[01;34m~[00m$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_rsa
+Your public key has been saved in /home/user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:vv37LpEWKyO/bi0hsSnh7JaTXZh5H/p0UgQFuWDGPFo user@project-7f0b7943-606f-4b27-b843-c237c30578b5
+The key's randomart image is:
++---[RSA 3072]----+
+|         o  o+.  |
+|          E ..   |
+|         = o ..  |
+|      . o   o.   |
+|     o .SB   +.  |
+|      +.O * *.   |
+|     . =.* Ooo.  |
+|      * .o=.+o   |
+|     . ..o+=+=o  |
++----[SHA256]-----+
+]0;~[01;34m~[00m$ cd .ssh/
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  id_rsa  id_rsa.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ more id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfMSSAkhRd9RrRusPkrv39uzbRmEvO1pHfaML51GQw9KKUWCA6SCzbru9ozYd2QJ80oNWFzApGyZ7Cb3EdegkBLLH7/rcCE5KF8CY/58sBtPJ8L6QdjKfjhh
+sF58Fa4f2WbZe+Wf4cDH4CB/5NDApUiWhLpQjIVk7yxoyFF0gLbvXVDwfee2pmfFZXs2q80v7CJPliqvBgzhCSnNvpPjq4iymo6mUK81FYyrApeljj/9NV3UAuMwITLiAaRjxjOdIw7YrO7zo6w2FbqPeZtFXe
+Unkw2ytx7ULWa4kVbavJr5Fav5jbSqs4XIBuBCkS6Ge6kZgwqmV6ibihHJyvywRAGBrYq1BFgfn+k4rEXy73HlyuxK19YiTA+9XHES9XNbitKPkoBL67jxW5mQhOWLR+jWx5eo2ohA9epgsPw8NHJpymD+NFSj
+mFrPxLXDtct0CC/JpPO4y6Nf6pOUAZ+OlnMIBrIo1SOHVjazFifJdYwHJXyOVr/9DVQjujBEWm5GU= user@project-7f0b7943-606f-4b27-b843-c237c30578b5
+]0;~/.ssh[01;34m~/.ssh[00m$ cd ..
+]0;~[01;34m~[00m$ ls
+ 2021-04-15-115205.course   2021-04-25-171732.term   [0m[01;34mAula01[0m   [01;34mAula02[0m  [01;34m'Calibre Library'[0m   [01;34mCienciadosDados2021[0m   Untitled.ipynb
+]0;~[01;34m~[00m$ cd CienciadosDados2021/
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git pus[K[K[K[K [K[K[K[Kls
+[0m[01;34mAula01[0m  [01;34mAula02[0m  [01;34mAula03[0m  [01;34mAula04[0m  [01;34mAula05[0m  [01;34mAula06[0m  [01;34mAula07[0m  [01;34mAula08[0m  [01;34mAula09[0m  [01;34mAula10[0m  [01;34mAula11[0m  [01;34mAula12[0m  [01;34mAula12Extra[0m  [01;34mAula13[0m  [01;34mAula14[0m  README.md
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ ls [K[K[Kgit pus[Kll
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 6 (delta 2), reused 6 (delta 2), pack-reused 0[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 1.14 KiB | 389.00 KiB/s, done.
+From https://github.com/neylemke/CienciadosDados2021
+   44f7720..874b988  main       -> origin/main
+hint: Waiting for your editor to close the file... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2J[?2004h[0m[1;29r[H[7m    IW   ~/CienciadosDados2021/.git/MERGE_MSG                                                                                                Row 1    Col 1   
+[0mMerge branch 'main' of https://github.com/neylemke/CienciadosDados2021 into main[K
+# Please enter a commit message to explain why this merge is necessary,[K
+# especially if it merges an updated upstream into a topic branch.[K
+#[K
+# Lines starting with '#' will be ignored, and an empty message aborts[K
+# the commit.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7m Joe's Own Editor 4.6 (utf-8) ** Type [1mCtrl-K Q[0m[7m to exit or [1mCtrl-K H[0m[7m for help **[0m[K[H
+[A[7m^K[28B[0m[K[H
+[27B[?2004l
+No modified files, so no updates needed.
+[KMerge made by the 'recursive' strategy.
+ teste | 22 [32m++++++++++++++++++++++[m
+ 1 file changed, 22 insertions(+)
+ create mode 100644 teste
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git pull[Kls > kkk
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ 
