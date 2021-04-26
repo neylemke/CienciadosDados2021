@@ -36,3 +36,12 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git commit -m "com colab"[1@ [C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K[3Pcd ..[3Plscd ..git pushcommit - m "com colab"[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit add *
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git add *commit -m "com colab"
+[main d564514] com colab
+ 7 files changed, 149 insertions(+), 35 deletions(-)
+ create mode 100644 Aula01/.2021-04-25-211045.x11-0.term
+ create mode 100644 Aula01/.2021-04-25-221224.term-0.term
+ create mode 100644 Aula01/.Configuracao.ipynb-0-jupyter.term
+ create mode 100644 Aula01/2021-04-25-211045.x11
+ create mode 100644 Aula01/2021-04-25-221224.term
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ 
