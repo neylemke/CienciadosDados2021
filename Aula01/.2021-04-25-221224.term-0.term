@@ -1,0 +1,38 @@
+]0;~/CienciadosDados2021/Aula01[01;34m~/CienciadosDados2021/Aula01[00m$ [K]0;~/CienciadosDados2021/Aula01[01;34m~/CienciadosDados2021/Aula01[00m$ cd ..
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ p[Kgo[Kit push
+Username for 'https://github.com': neyleme
+Password for 'https://neyleme@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/neylemke/CienciadosDados2021/'
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git push
+Username for 'https://github.com': neylemke
+Password for 'https://neylemke@github.com': 
+Everything up-to-date
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git add [K[K[K[Kv[Kcommit - m ¨"¨"[K[K[K[K[K ¨"com colab¨"[1P"[C[1P
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'com colab' did not match any file(s) known to git
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git commit - m "com colab"[C[1P
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    2021-04-15-115205.course[m
+	[31mmodified:   Aula01/.Configuracao.ipynb.sage-jupyter2[m
+	[31mmodified:   Aula01/Configuracao.ipynb[m
+	[31mdeleted:    CienciadosDados21.zip[m
+	[31mdeleted:    Organizacao.ipynb[m
+	[31mdeleted:    kkk[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mAula01/.2021-04-25-211045.x11-0.term[m
+	[31mAula01/.2021-04-25-221224.term-0.term[m
+	[31mAula01/.Configuracao.ipynb-0-jupyter.term[m
+	[31mAula01/2021-04-25-211045.x11[m
+	[31mAula01/2021-04-25-221224.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/CienciadosDados2021[01;34m~/CienciadosDados2021[00m$ git commit -m "com colab"[1@ [C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K[3Pcd ..[3Plscd ..git pushcommit - m "com colab"[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit add *
